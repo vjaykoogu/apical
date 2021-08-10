@@ -2,7 +2,8 @@
     "autoload": {
         "psr-4": {
             "App\\": "app"
-        }
+        },
+        "files": ["app/Bootstrap/app.php"]
     },
     "require": {
         "miladrahimi/phprouter": "5.*"
